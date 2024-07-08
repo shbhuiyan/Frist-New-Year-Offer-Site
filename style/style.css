@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner section */
+#banner-container{
+    max-width: 1320px;
+    margin:50px auto;
+}
+#banner-container .banner{
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Banner\ Image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+#banner-container .banner-title{
+    max-width: 632px;
+    margin: 177px auto;
+    text-align: center;
+}
+#banner-container .banner-title .sub-title{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+#banner-container .banner-title .title{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+}
+#categories-container{
+    max-width: 803px;
+    margin: 100px auto;
+}
+#categories-container .categories-title-container{
+    text-align: center;
+    font-family: Inter;
+    letter-spacing: 0%;
+}
+#categories-container .categories-title{
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    margin-bottom: 48px;
+}
+#categories-container .categories-subtitle{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+#categories-container .categories-super-sub{
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+#party-container{
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1320px;
+    margin: 50px auto;
+    padding-top:50px ;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#party-container .party-title-container{
+    text-align: left;
+    
+}
+#party-container .party-title{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    margin-bottom: 24px;
+}
+#party-container .party-subtitle{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+}
+#party-container .party-super-sub{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 32px;
+    text-transform: uppercase;
+}
+#joining-container{
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    max-width: 1320px;
+    margin: 100px auto;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+#joining-container .joining-content{
+    margin-top: 100px;
+}
+#joining-container h4{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+#joining-container span{
+    color: rgb(255, 0, 0);
+}
+#joining-container .btn{
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+#joining-container button{
+    color: rgb(255, 255, 255);
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+#new-offer-container{
+    max-width: 1320px;
+    margin: 100px auto;
+    border: 2px solid red;
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+#new-offer-container .offer-title-container{
+    letter-spacing: 0%;
+    text-align: left;
+}
+#new-offer-container .offer-sub-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+#new-offer-container .offer-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+#new-offer-container .offer-super-sub{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+#new-offer-container .img-container{
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 100%;
+}
+#new-offer-container .img-container img{
+    padding: 20px;
+}
+#new-offer-container .year-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#new-offer-container .year-title-container{
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+#new-offer-container .year-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+}
+#new-offer-container .year-subtitle{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+}
