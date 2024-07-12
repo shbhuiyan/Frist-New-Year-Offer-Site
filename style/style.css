@@ -81,6 +81,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 16px;
 
 }
 #party-container .party-title-container{
@@ -124,6 +125,7 @@
     text-align: center;
     letter-spacing: 0%;
     text-transform: capitalize;
+    border-radius: 16px;
 }
 #joining-container .joining-content{
     margin-top: 100px;
@@ -152,18 +154,19 @@
     font-weight: 700;
     line-height: 24px;
 }
+
 #new-offer-container{
     max-width: 1320px;
     margin: 100px auto;
-    border: 2px solid red;
     padding-top: 20PX;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    
+    border-radius: 16px;
 }
+    
 #new-offer-container .offer-title-container{
     letter-spacing: 0%;
     text-align: left;
@@ -225,4 +228,165 @@
     line-height: 32px;
     margin-bottom: 25px;
     text-align: center;
+}
+
+#discount{
+    width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+    position: relative;
+}
+#discount .title-container{
+    text-align: center;
+    letter-spacing: 0%;
+}
+#discount .title-container .subtitle{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+#discount .title-container .title{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    margin-bottom: 28px;
+}
+#discount .title-container .discription{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 62px;
+    opacity: 0.7;
+}
+#discount .img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#discount .img-container .img-1{
+    z-index: 1; 
+}
+#discount .img-container .img-2{
+   position: absolute;
+   left: 50%;
+}
+#discount .img-container .img-3{
+    position: absolute;
+    left: 60%;
+    bottom: 22%;
+}
+#discount .bg{
+    position: absolute;
+    top: 77%;
+}
+
+#card{
+    width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+#card .subtitle{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+#card .title{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+#card .discription{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 48px;
+    opacity: 0.7;
+}
+#card .card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+#contact{
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+    border-radius: 16px;
+}
+#contact .mail-pic{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#contact .title{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+#contact .subtitle{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+    opacity: 0.7;
+}
+#contact .mail-box{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#contact input[type=email]{
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(7, 2, 17, 0.97);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 20px;
+}
+#contact input[type=submit]{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(255, 0, 0);;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 0 50px 50px 0;
 }
